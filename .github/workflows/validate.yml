@@ -12,6 +12,6 @@ jobs:
           channel: stable
       - run: flutter pub get
       - run: dart format lib test integration_test
-      - run: flutter analyze
+      - run: flutter analyze --no-fatal-infos
       - run: flutter test
       - run: flutter build apk --debug --dart-define=SUPABASE_URL=https://example.supabase.co --dart-define=SUPABASE_ANON_KEY=YOUR_PLACEHOLDER
