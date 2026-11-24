@@ -18,4 +18,8 @@ jobs:
       - run: dart format lib test integration_test
       - run: flutter analyze --no-fatal-infos
       - run: flutter test
+      - name: Python source-level regression tests
+        run: python -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Validate Python test harness syntax
+        run: python -m py_compile tests/*.py
       - run: flutter build apk --debug --dart-define=SUPABASE_URL=https://example.supabase.co --dart-define=SUPABASE_ANON_KEY=YOUR_PLACEHOLDER
