@@ -15,7 +15,6 @@ import '../features/community/presentation/community_screens.dart';
 import '../features/profile/presentation/profile_screens.dart';
 import '../features/admin/presentation/admin_screens.dart';
 import 'providers.dart';
-import 'shell.dart';
 
 class AuthRefresh extends ChangeNotifier {
   VoidCallback? onPasswordRecovery;

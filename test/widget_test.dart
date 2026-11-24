@@ -18,6 +18,6 @@ void main() {
       find.byType(SelectableText),
     );
 
-    expect(message.data, contains('إعداد الخادم مطلوب'));
+    expect(message.data, contains('لتفعيل البيئة الحقيقية'));
   });
 }
