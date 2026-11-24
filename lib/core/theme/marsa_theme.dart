@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 
 class MarsaColors {
   // A palette inspired by the Arabian Sea and Aden's coast
-  static const navy = Color(0xFF002A32);      // Deep sea navy
-  static const teal = Color(0xFF006D77);      // Professional teal
-  static const turquoise = Color(0xFF83C5BE); // Light sea foam
-  static const seafoam = Color(0xFFEDF6F9);   // Background tint
-  static const sand = Color(0xFFFFDDD2);      // Beach sand
-  static const coral = Color(0xFFE29578);     // Sunset coral
-  static const slate = Color(0xFF2B2D42);     // Text/Heading color
-  static const muted = Color(0xFF8D99AE);     // Secondary text
+  static const navy = Color(0xFF073B4C);      // Deep sea navy
+  static const teal = Color(0xFF0E7C86);      // Professional teal
+  static const turquoise = Color(0xFF22B8B0); // Light sea foam
+  static const seafoam = Color(0xFFDFF3EF);   // Background tint
+  static const sand = Color(0xFFF4EBDD);      // Beach sand
+  static const coral = Color(0xFFF0785A);     // Sunset coral
+  static const slate = Color(0xFF20343B);     // Text/Heading color
+  static const muted = Color(0xFF6B7C82);     // Secondary text
 }
 
 ThemeData marsaTheme() {
@@ -46,11 +46,11 @@ ThemeData marsaTheme() {
       fillColor: Colors.white,
       border: OutlineInputBorder(
         borderRadius: BorderRadius.circular(16),
-        borderSide: const BorderSide(color: Color(0xFFE0E7E9)),
+        borderSide: const BorderSide(color: Color(0xFFE2EAEC)),
       ),
       enabledBorder: OutlineInputBorder(
         borderRadius: BorderRadius.circular(16),
-        borderSide: const BorderSide(color: Color(0xFFE0E7E9)),
+        borderSide: const BorderSide(color: Color(0xFFE2EAEC)),
       ),
       focusedBorder: OutlineInputBorder(
         borderRadius: BorderRadius.circular(16),
@@ -66,7 +66,7 @@ ThemeData marsaTheme() {
       shadowColor: Colors.black.withOpacity(0.05),
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(20),
-        side: const BorderSide(color: Color(0xFFF1F5F6)),
+        side: const BorderSide(color: Color(0xFFE2EAEC)),
       ),
     ),
     
