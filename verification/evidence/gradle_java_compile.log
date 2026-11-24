@@ -1,0 +1,7 @@
+javac exit=0
+META-INF/
+META-INF/MANIFEST.MF
+org/
+org/gradle/
+org/gradle/wrapper/
+org/gradle/wrapper/GradleWrapperMain.class

@@ -1,0 +1,26 @@
+test_auction_cancellation_and_edit_serialized_with_bid_lock (test_phase2_regressions.Phase2RegressionContracts.test_auction_cancellation_and_edit_serialized_with_bid_lock) ... ok
+test_bid_clock_checked_after_lock (test_phase2_regressions.Phase2RegressionContracts.test_bid_clock_checked_after_lock) ... ok
+test_bid_retries_validate_listing_and_amount (test_phase2_regressions.Phase2RegressionContracts.test_bid_retries_validate_listing_and_amount) ... ok
+test_checkout_never_submits_offline_cached_listing (test_phase2_regressions.Phase2RegressionContracts.test_checkout_never_submits_offline_cached_listing) ... ok
+test_expiring_auction_awards_cannot_overwrite_seller_acceptance (test_phase2_regressions.Phase2RegressionContracts.test_expiring_auction_awards_cannot_overwrite_seller_acceptance) ... ok
+test_finalize_idempotent_terminal_states (test_phase2_regressions.Phase2RegressionContracts.test_finalize_idempotent_terminal_states) ... ok
+test_finalize_uses_actual_clock_after_lock (test_phase2_regressions.Phase2RegressionContracts.test_finalize_uses_actual_clock_after_lock) ... ok
+test_image_metadata_limit_serializes_concurrent_inserts (test_phase2_regressions.Phase2RegressionContracts.test_image_metadata_limit_serializes_concurrent_inserts) ... ok
+test_integration_test_cannot_silently_skip_when_unconfigured (test_phase2_regressions.Phase2RegressionContracts.test_integration_test_cannot_silently_skip_when_unconfigured) ... ok
+test_order_retries_reject_changed_request_in_both_paths (test_phase2_regressions.Phase2RegressionContracts.test_order_retries_reject_changed_request_in_both_paths) ... ok
+test_public_auction_activity_requires_approved_seller (test_phase2_regressions.Phase2RegressionContracts.test_public_auction_activity_requires_approved_seller) ... ok
+test_stock_restore_only_on_eligible_transition (test_phase2_regressions.Phase2RegressionContracts.test_stock_restore_only_on_eligible_transition) ... ok
+test_adens_first_release (test_source_contract.MARSAContracts.test_adens_first_release) ... ok
+test_all_expected_tables_and_rls (test_source_contract.MARSAContracts.test_all_expected_tables_and_rls) ... ok
+test_dart_entry_and_android_starter (test_source_contract.MARSAContracts.test_dart_entry_and_android_starter) ... ok
+test_documentation_present (test_source_contract.MARSAContracts.test_documentation_present) ... ok
+test_local_dart_imports_are_resolved (test_source_contract.MARSAContracts.test_local_dart_imports_are_resolved) ... ok
+test_no_embedded_privileged_credentials (test_source_contract.MARSAContracts.test_no_embedded_privileged_credentials) ... ok
+test_security_hardening (test_source_contract.MARSAContracts.test_security_hardening) ... ok
+test_sensitive_private_admin_table_has_rls (test_source_contract.MARSAContracts.test_sensitive_private_admin_table_has_rls) ... ok
+test_server_authority_and_transactional_locking (test_source_contract.MARSAContracts.test_server_authority_and_transactional_locking) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.017s
+
+OK

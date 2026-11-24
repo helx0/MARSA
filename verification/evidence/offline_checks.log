@@ -1,0 +1,5 @@
+PASS: Supabase TOML syntactically valid (NOT applied)
+PASS: Android XML syntactically valid (NOT Android resource compilation)
+PASS: pubspec YAML parses (NOT dependency resolution)
+PASS: Dart punctuation tokens have balanced brackets across 29 files (NOT Dart analyzer)
+PASS: PL/pgSQL $$ delimiters paired in 10 migration files (NOT SQL execution)
